@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Keshav Singh"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "One word NLP, two meanings : Natural Language Processing | Night Life Play ;)"
+  bio    : "I research in both, Natural Language and Night Life"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
