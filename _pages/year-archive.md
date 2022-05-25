@@ -1,6 +1,6 @@
 ---
 title: "Publications by Year"
-permalink: /posts/
+permalink: /publications/
 layout: posts
 author_profile: true
 ---
