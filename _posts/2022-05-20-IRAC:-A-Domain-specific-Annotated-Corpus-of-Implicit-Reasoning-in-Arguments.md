@@ -9,7 +9,7 @@ tags:
   - long paper
 ---
 
-Published in LREC 2022 (Marseille, France)
+Published in 13th Internation conference on Language Resources and Evaluation Conference (LREC 2022 Marseille, France)
 ** Authors: Keshav Singh, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito and Kentaro Inui **
 
 The paper introduces a novel annotation methodology to create the largest corpus of domain-specific implicit reasonings in arguments (IRAC). 
