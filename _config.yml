@@ -62,29 +62,28 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Researcher in both, Natural Language and Night Life ;)"
   links:
-    - label: "Tohoku University"
-      icon: "fa fa-fw fa-map-marker"
+    - label: "NLP Lab/Tohoku University"
+      icon: "fas fa-map-marker-alt"
+      url: "https://www.nlp.ecei.tohoku.ac.jp/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/knosing_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/knosing"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=fSOXdPYAAAAJ&hl=en"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/knosing_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/knosing"
+
 
 defaults:
   # _posts
