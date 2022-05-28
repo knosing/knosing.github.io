@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /
 title: "About Me"
 ---
 
@@ -10,19 +10,18 @@ I'm also a keen learner of novel research practices in NLP domain and its consum
 
 In addition to research, I often enjoy local food, Japanese sake, onsen and weekend trips to natural scenic spots to have some fun break time.  
 
----
 
-### Research Interests
-+ Natural language processing, Argumentation
+## Research Interests
++ Natural language understanding
 + Argumentation mining
 + Implicit human reasoning 
 + Data creation/analysis 
 + Language modeling
 
-### Education Timeline
-+ 2020 – : Ph.D student at Tohoku University, NLP Lab, Advisor 乾 健太郎 / Kentaro Inui
-+ 2018 – 2020: Master of Information Sciences
-Graduate School of Information Sciences, Tohoku University
-Advisor 乾 健太郎 / Kentaro Inui & 鈴木 潤 / Jun Suzuki
-+ 2013 – 2017: Bachelor of Engineering
-Department of Mechanical Engineering, UIT Bhopal (INDIA)
+## Education Timeline
++ Ph.D candidate in NLP (2020–Present)  
+<span style="color:gray">Inui lab, Tohoku University, Japan</span>
++ Master of Information Sciences (2018-2020)  
+<span style="color:gray">Inui-Suzuki lab, Tohoku University, Japan</span>
++ Bachelor of Mechanical Engineering (2013-2017)  
+<span style="color:gray">University Institute of Technology, Bhopal, India</span>

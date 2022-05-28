@@ -1,13 +1,6 @@
-Education
-
-Work Experience
-
-Publications 
-# International
-
-# Domestic  
-
-# Pre-print (ArXiv)
-
-TA 
+---
+permalink: /cv/
+title: "Resume"
+---
+ Coming soon ...
 
