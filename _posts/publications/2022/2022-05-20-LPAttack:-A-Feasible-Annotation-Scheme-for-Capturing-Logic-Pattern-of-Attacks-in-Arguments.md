@@ -9,11 +9,10 @@ tags:
   - long paper
 ---
 
-Published in 13th Internation conference on Language Resources and Evaluation Conference (LREC 2022 Marseille, France)
-** Authors: Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, Keshav Singh and Kentaro Inui **
+> The paper introduces an annotation scheme to link parliamentary debates between two opposing parties with logic patterns (e.g., support & attack).   
+[Read Paper][link-to-paper] [Annotation Guide][lp-attack]
 
-The paper introduces an annotation scheme to link parliamentary debates between two opposing parties with logic patterns (e.g., support & attack). 
+Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, __Keshav Singh__ and Kentaro Inui. LPAttack: A Feasible Annotation Scheme for Capturing Logic Pattern of Attacks in Arguments. To appear in Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022).
 
-Check out the [Repository][lp-attack] for more info on how to use our scheme for performing similar annotations.
-
+[link-to-paper]: https://google.com
 [lp-attack]: https://github.com/cl-tohoku/xx
