@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Keshav Singh"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Researcher in both, Natural Language and Night Life ;)"
+  name: "Keshav Singh"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Researcher in both, Natural Language and Night Life ;)"
   links:
     - label: "Tohoku University"
       icon: "fas fa-map-marker-alt"
@@ -82,8 +82,7 @@ footer:
       url: "https://twitter.com/knosing_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/knosing"
-
+      url: "https://github.com/KeshavSingh29"
 
 defaults:
   # _posts
