@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <!-- Fonts -->
+        <link href="http://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/clarika-geometric" rel="stylesheet">
+
+        <title> Keshav Singh </title>
+    </head>
+    <body>
+      <!-- Header -->
+        <header class="header" id="header">
+          <nav class="nav container">
+            <a href="#" class="nav__logo">Keshav</a>
+
+            <div class="nav__menu">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">
+                    <i class='bx bx-home-alt-2'></i>
+                  </a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#about" class="nav__link">
+                    <i class='bx bxs-face'></i>
+                  </a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#skills" class="nav__link">
+                    <i class='bx bx-book' ></i>
+                  </a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#qualification" class="nav__link">
+                    <i class='bx bx-briefcase' ></i>
+                  </a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="https://scholar.google.com/citations?user=fSOXdPYAAAAJ&hl=en" class="nav__link">
+                    <i class='bx bx-file' ></i>
+                  </a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link">
+                    <i class='bx bx-message-rounded'></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+          </nav>
+        </header>
+
+        <main class="main">
+          <!-- Home -->
+            <section class="home section" id="home">
+              <div class="home__container container grid">
+                <div class="home__data">
+                  <span class="home__greeting ">Hi, I'm</span>
+                  <h1 class="home__name text-color-all top-info">Keshav</h1>
+                  <h3 class="home__education code-slider">A Programmer</h3>
+
+                  <div class="home__buttons">
+                    <a download="" href="./assets/pdf/Keshav_CV_new.pdf" class="button button--ghost">
+                      Download my CV
+                    </a>
+                    <a href="#about" class="button">About me</a>
+                  </div>
+                </div>
+
+                <div class="home__handle">
+                  <img src="./assets/img/profile_pic.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                  <a href="https://www.linkedin.com/in/dr-keshav-singh-271b03118/" class="home__social-link">
+                    <i class='bx bxl-linkedin' ></i>
+                  </a>
+
+                  <a href="https://github.com/KeshavSingh29" class="home__social-link">
+                    <i class='bx bxl-github' ></i>
+                  </a>
+                  
+                  <a href="https://twitter.com/knosing_" class="home__social-link">
+                    <i class='bx bxl-twitter' ></i>
+                  </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                  <i class='bx bxs-chevrons-down home__scroll-icon'></i>
+                  <span class="home__scroll-name">Scroll Down</span>
+                </a>
+              </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+              <!--<span class="section__subtitle">My Intro</span>-->
+              <h2 class="section__title">About Me</h2>
+
+              <div class="about__container container grid">
+                <img src="./assets/img/profile_pic_2.JPG" alt="" class="about__img">
+
+                <div class="about__data">
+                  <div class="about__info">
+                    <div class="about__box">
+                      <i class='bx bx-atom about__icon'></i>
+                      <h3 class="about__title">Field Interest</h3>
+                      <span class="about__subtitle">NLU <br>
+                        Language Modelling <br>
+                        Argumentation
+                      </span>
+                    </div>
+
+                    <div class="about__box">
+                      <i class='bx bx-file about__icon'></i>
+                      <h3 class="about__title">Completed</h3>
+                      <span class="about__subtitle">14 Papers<br>
+                        4 Intern. Conferences <br> 3 Domest. Conferences
+                      </span>
+                    </div>
+
+                    <div class="about__box">
+                      <i class='bx bx-certification about__icon'></i>
+                      <h3 class="about__title">Expertise</h3>
+                      <span class="about__subtitle">NLP & LLMs <br>
+                      Programming</span>
+                    </div>
+                  </div>
+
+                  <p class="about__description">
+                  A keen learner of everchanging developments in NLP domain and its consumer directed usage. 
+                  Completed Ph.D. in 2023 under guidance of Prof. Kentao Inui at Tohoku University Japan.
+                  Currently working as NLP Research Scientist & Developer at CTW Inc. (Tokyo) , building amazing chatbots.
+                  </p>
+
+
+                  <a href="#contact" class="button">Contact Me</a>
+                </div>
+              </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+              <h2 class="section__title">Skills</h2>
+
+              <div class="skills__container container grid section__border">
+              <!--====================== SKILLS 1 =========================-->
+                <div class="skils__content">
+                  <h3 class="skills__title">
+                    <i class='bx bx-code'></i> Programming
+                  </h3>
+
+                  <div class="skills__info">
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/python.svg" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills__subtitle">Advanced</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/js.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">JavaScript</h3>
+                      <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/html.svg" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">HTML5</h3>
+                      <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/css.svg" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">CSS</h3>
+                      <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/vscode.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">VS Code</h3>
+                      <span class="skills__subtitle">Advanced</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/emacs.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">Emacs</h3>
+                      <span class="skills__subtitle">Advanced</span>
+                    </div>
+                  </div>
+                </div>
+              <!--====================== SKILLS 1 =========================-->
+
+              <!--====================== SKILLS 2 =========================-->
+                <div class="skills__content">
+                  <h3 class="skills__title">
+                    <i class='bx bx-bracket'></i> ML/DL Toolkit
+                  </h3>
+
+                  <div class="skills__info">
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/hf-logo.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">Huggingface</h3>
+                      <span class="skills__subtitle">Advanced</span>
+                    </div>
+
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/pytorch.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">Pytorch</h3>
+                      <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/langchain.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">LangChain</h3>
+                      <span class="skills__subtitle">Advanced</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/fastapi.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">FastAPI</h3>
+                      <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/openai.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">OpenAI</h3>
+                      <span class="skills__subtitle">Advanced</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/pgsql.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">PgSQL</h3>
+                      <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/git.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">Git</h3>
+                      <span class="skills__subtitle">Advanced</span>
+                    </div>
+
+                    <div class="skills__data">
+                      <div class="skills__blob">
+                        <img src="./assets/img/grafana.png" alt="skills image">
+                      </div>
+
+                      <h3 class="skills__name">Grafana</h3>
+                      <span class="skills__subtitle">Basic</span>
+                    </div>
+
+                  </div>
+                </div>
+              <!--====================== SKILLS 2 =========================-->
+              </div>
+            </section>
+
+            <!--=============== QUALIFICATION ===============-->
+            <section class="qualification section" id="qualification">
+              <h2 class="section__title">Qualifications</h2>
+              <!--<span class="section__subtitle">Experience & Education</span>-->
+
+              <div class="qualification__container container grid section__border">
+                <!--====================== QUALIFICATION 1 =========================-->
+                <div class="qualification__content">
+                  <h3 class="qualification__title">
+                    <i class='bx bx-book-open'></i> Education
+                  </h3>
+
+                  <div class="qualification__info">
+                    <div>
+                      <h3 class="qualification__name">
+                        Ph.D. In Intelligent Information Sciences
+                      </h3>
+                      <span class="qualification__country">Tohoku University, Japan</span>
+                      <span class="qualification__gpa"> GPA: 3.8/4.0</span>
+                      <span class="qualification__year">2020 - 2023</span>
+                    </div>
+
+                    <div>
+                      <h3 class="qualification__name">
+                        M.Sc in Intelligent Information Sciences
+                      </h3>
+                      <span class="qualification__country">Tohoku University, Japan</span>
+                      <span class="qualification__gpa">GPA: 3.8/4.0</span>
+                      <span class="qualification__year">2018 - 2020</span>
+                    </div>
+
+                    <div>
+                      <h3 class="qualification__name">
+                        B.Eng. in Mechanical Engineering
+                      </h3>
+                      <span class="qualification__country">UIT, India</span>
+                      <span class="qualification__gpa">CGPA: 7.25/10.0</span>
+                      <span class="qualification__year">2013 - 2017</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!--====================== QUALIFICATION 2 =========================-->
+                <div class="qualification__content">
+                  <h3 class="qualification__title">
+                    <i class='bx bx-briefcase-alt-2'></i> Experience
+                  </h3>
+
+                  <div class="qualification__info">
+                    <div>
+                      <h3 class="qualification__name">
+                        NLP Research Scientist & Developer
+                      </h3>
+                      <span class="qualification__country">CTW Inc, Tokyo</span>
+                      <span class="qualification__year"> 2023 - Present</span>
+                    </div>
+
+                    <div>
+                      <h3 class="qualification__name">
+                        Deep Learning Intern
+                      </h3>
+                      <span class="qualification__country">Encored Inc, Sendai</span>
+                      <span class="qualification__year"> 2021 - 2022</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="qualification__name">
+                      Machine Learning Intern
+                    </h3>
+                    <span class="qualification__country">SOLANETs Ltd, Sendai</span>
+                    <span class="qualification__year"> 2020</span>
+                  </div>
+                </div>
+
+
+            <!--=============== HONORS & AWARDS ===============-->
+            <!--====================== QUALIFICATION 1 =========================-->
+                <div class="qualification__content">
+                  <h3 class="qualification__title">
+                    <i class='bx bx-award'></i> Awards
+                  </h3>
+
+                  <div class="qualification__info">
+
+                    <div>
+                      <h3 class="qualification__name">
+                        MEXT Scholarship
+                      </h3>
+                      <span class="qualification__country">Japan</span>
+                      <span class="qualification__issued">Issued by Japanese Ministry of Education,
+                        Culture, Sports, Science and Technology</span>
+                      <span class="qualification__year"> 2017 - 2023 </span>
+                    </div>
+
+                    <div>
+                      <h3 class="qualification__name">
+                        MP-PET Scholarship
+                      </h3>
+                      <span class="qualification__country">India</span>
+                      <span class="qualification__issued">Scholarship Issued by Government of M.P. to top 1% students for pursuing B.Eng.</span>
+                      <span class="qualification__year">2013 - 2017</span>
+                    </div>
+
+                    <div>
+                      <h3 class="qualification__name">
+                        3rd Prize in Stock Trading
+                      </h3>
+                      <span class="qualification__country">India</span>
+                      <span class="qualification__issued">Issued by Reliance Industries in Virtual Stock Trading Championship</span>
+                      <span class="qualification__year">2016</span>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+              <!-- <span class="section__subtitle">Get in touch</span> -->
+              <h2 class="section__title">Contact Me</h2>
+
+              <div class="contact__container container grid">
+                <div class="contact__content">
+                  <div class="contact__info">
+
+                    <div class="contact__card">
+                      <i class="bx bx-mail-send contact__card-icon"></i>
+                      <h3 class="contact__card-title">Email</h3>
+                      <span class="contact__card-data">keshav.singh29@gmail.com</span>
+
+                      <a href="mailto:keshav.singh29@gmail.com" target="_blank" class="contact__button">
+                        Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+          <div class="footer__container container">
+            <h1 class="footer__title">Keshav</h1>
+
+            <ul class="footer__list">
+              <li>
+                <a href="#about" class="footer__link">About</a>
+              </li>
+              <li>
+                <a href="#skills" class="footer__link">Skills</a>
+              </li>
+              <li>
+                <a href="#qualification" class="footer__link">Qualifications</a>
+              </li>
+              <li>
+                <a href="https://scholar.google.com/citations?user=fSOXdPYAAAAJ&hl=en" class="footer__link">Publications</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Top</a>
+              </li>
+            </ul>
+
+            <span class="footer__copy">
+              &#169; Keshav. All rights reserved.
+            </span>
+          </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src=""></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script>
+          const text = document.querySelector(".code-slider");
+  
+          const textLoad = () => {
+              setTimeout(() => {
+                  text.textContent = "An enthusiast";
+              }, 500);
+              setTimeout(() => {
+                  text.textContent = "A researcher";
+              }, 3000);
+              setTimeout(() => {
+                  text.textContent = "A programmer";
+              }, 5500); //1s = 1000 milliseconds
+          }
+  
+          textLoad();
+          setInterval(textLoad, 7500);
+      </script>  
+      <script src="./assets/js/main.js"></script>
+  
+    </body>
+</html>
