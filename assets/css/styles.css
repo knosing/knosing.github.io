@@ -1025,6 +1025,7 @@ body.light-theme{
   .about__img{
     height: 450px;
     width: 330px;
+    object-fit: cover;
   }
   .about__info{
     justify-content: initial;
