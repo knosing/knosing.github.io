@@ -210,7 +210,6 @@ body.light-theme{
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-bottom: 2rem;
-  margin-top: -5rem;
 }
 
 .section__subtitle {
@@ -464,6 +463,10 @@ body.light-theme{
 /*=============== ABOUT ===============*/
 .about_container{
   row-gap: 2.5rem;
+}
+
+.about_me_spl{
+  margin-top: -5rem;
 }
 
 .about__img{
@@ -1002,7 +1005,6 @@ body.light-theme{
 
   .section__title{
     margin-bottom: 3.5rem;
-    margin-top: -5rem;
   }
 
   .nav{
