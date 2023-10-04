@@ -466,8 +466,9 @@ body.light-theme{
 }
 
 .about__img{
-  height: 350px;
-  width: 250px;
+  height: 450px;
+  max-width: 70%;
+  object-fit: cover;
   border-radius: 1.5rem;
   justify-self: center;
 }
@@ -1025,7 +1026,7 @@ body.light-theme{
   }
   .about__img{
     height: 450px;
-    width: 330px;
+    max-width: 70%;
     object-fit: cover;
   }
   .about__info{
