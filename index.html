@@ -15,7 +15,7 @@
 
         <title> Keshav Singh </title>
     </head>
-    <body>
+    <body id="top">
       <!-- Header -->
         <header class="header" id="header">
           <nav class="nav container">
@@ -32,47 +32,6 @@
               <a href="https://twitter.com/knosing_" class="home__social-link">
                 <i class='bx bxl-twitter' ></i>
               </a>
-
-
-            <div class="nav__menu">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#home" class="nav__link active-link">
-                    <i class='bx bx-home-alt-2'></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#about" class="nav__link">
-                    <i class='bx bxs-face'></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#skills" class="nav__link">
-                    <i class='bx bx-book' ></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#qualification" class="nav__link">
-                    <i class='bx bx-briefcase' ></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="https://scholar.google.com/citations?user=fSOXdPYAAAAJ&hl=en" class="nav__link">
-                    <i class='bx bx-file' ></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#contact" class="nav__link">
-                    <i class='bx bx-message-rounded'></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
 
             <!-- Theme change button -->
             <i class='bx bx-moon change-theme' id="theme-button"></i>
@@ -111,7 +70,7 @@
                       <h3 class="about__title">Field Interest</h3>
                       <span class="about__subtitle">NLU <br>
                         Language Modelling <br>
-                        Argumentation
+                        Massive LLMs & MoE
                       </span>
                     </div>
 
@@ -126,16 +85,16 @@
                     <div class="about__box">
                       <i class='bx bx-certification about__icon'></i>
                       <h3 class="about__title">Expertise</h3>
-                      <span class="about__subtitle">NLP & LLMs <br>
-                      Programming</span>
+                      <span class="about__subtitle">NLP & LLM Dev <br>
+                      Python</span>
                     </div>
                   </div>
 
-                  <p class="about__description">
-                  A keen learner of NLP, LLMs and their consumer directed usage.
-                  Completed Ph.D. in 2023 under Prof. Kentaro Inui from Tohoku University, Japan.
-                  NLP Research Scientist at Fast Accounting (Tokyo), building advanced LLMs.
-                  </p>
+                  <div class="about__description">
+                    <p><strong>Creating MoE / Dense LLMs and NLP pipelines</strong> from ground up since 2023!</p>
+                    <p><strong>Completed PhD</strong> from Tohoku University, Japan under Prof. Kentaro Inui.</p>
+                    <p><strong>Currently working</strong> at Fast Accounting (Tokyo) as NLP research scientist, creating accounting AI with an amazingly talented team.</p>
+                  </div>
 
                   <div class="home__buttons">
                     <a download="" href="./assets/pdf/keshav_cv_25.pdf" class="button button--ghost">
@@ -375,7 +334,6 @@
                       <span class="qualification__country">Encored Inc, Sendai</span>
                       <span class="qualification__year"> 2021 - 2022</span>
                     </div>
-                  </div>
                   <div>
                     <h3 class="qualification__name">
                       Machine Learning Intern
@@ -384,6 +342,7 @@
                     <span class="qualification__year"> 2020</span>
                   </div>
                 </div>
+              </div>
 
 
             <!--=============== HONORS & AWARDS ===============-->
@@ -428,59 +387,63 @@
 
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
-              <!-- <span class="section__subtitle">Get in touch</span> -->
               <h2 class="section__title">Contact Me</h2>
-
-              <div class="contact__container container grid">
-                <div class="contact__content">
-                  <div class="contact__info">
-
-                    <div class="contact__card">
-                      <i class="bx bx-mail-send contact__card-icon"></i>
-                      <h3 class="contact__card-title">Email</h3>
-                      <span class="contact__card-data">keshav.singh29@gmail.com</span>
-
-                      <a href="mailto:keshav.singh29@gmail.com" target="_blank" class="contact__button">
-                        Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
-                      </a>
-                    </div>
-
-                  </div>
+            
+              <div class="container contact__container">
+                <div class="contact__info">
+                  <article class="contact__card">
+                    <i class="bx bx-mail-send contact__card-icon" aria-hidden="true"></i>
+                    <h3 class="contact__card-title">Email</h3>
+            
+                    <a
+                      href="mailto:keshav.singh@fastaccounting.co.jp?subject=Hello%20Keshav&body=I%20saw%20your%20site%20and%20wanted%20to%20get%20in%20touch."
+                      class="contact__card-data"
+                    >
+                      keshav.singh@fastaccounting.co.jp
+                    </a>
+            
+                    <a
+                    href="mailto:keshav.singh@fastaccounting.co.jp?subject=Hello%20Keshav&body=I%20saw%20your%20site%20and%20wanted%20to%20get%20in%20touch."
+                    class="contact__card-button"
+                    aria-label="Send me an email"
+                    >
+                      Write me
+                      <i
+                        class="bx bx-right-arrow-alt contact__button-icon"
+                        aria-hidden="true"
+                      ></i>
+                    </a>
+                  </article>
                 </div>
               </div>
-
             </section>
+            
         </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer">
-          <div class="footer__container container">
-            <h1 class="footer__title">Keshav</h1>
-
-            <ul class="footer__list">
-              <li>
-                <a href="#about" class="footer__link">About</a>
-              </li>
-              <li>
-                <a href="#skills" class="footer__link">Skills</a>
-              </li>
-              <li>
-                <a href="#qualification" class="footer__link">Qualifications</a>
-              </li>
-              <li>
-                <a href="https://scholar.google.com/citations?user=fSOXdPYAAAAJ&hl=en" class="footer__link">Publications</a>
-              </li>
-              <li>
-                <a href="#" class="footer__link">Top</a>
-              </li>
-            </ul>
-
-            <span class="footer__copy">
-              &#169; Keshav. All rights reserved.
-            </span>
+          <div class="container footer__container">
+            <h2 class="footer__title">Keshav</h2>
+        
+            <nav class="footer__nav" aria-label="Footer Menu">
+              <ul class="footer__list">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+                <li><a href="#qualification" class="footer__link">Qualifications</a></li>
+                <li>
+                  <a href="https://scholar.google.com/citations?user=fSOXdPYAAAAJ&hl=en"
+                     class="footer__link" target="_blank" rel="noopener">
+                    Publications
+                  </a>
+                </li>
+                <li><a href="#top" class="footer__link">Back to top</a></li>
+              </ul>
+            </nav>
+        
+            <p class="footer__copy">&copy; 2025 Keshav. All rights reserved.</p>
           </div>
         </footer>
-
+        
         <!--=============== SCROLLREVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
 
@@ -492,23 +455,58 @@
 
         <!--=============== MAIN JS ===============-->
         <script>
-          const text = document.querySelector(".code-slider");
+          const textElement = document.querySelector(".code-slider");
+          const phrases = ["An Enthusiast", "A Researcher ", "A Programmer"];
+          let currentPhrase = 0;
+          let currentChar = 0;
+          let isDeleting = false;
+          let isWaiting = false;
   
-          const textLoad = () => {
-              setTimeout(() => {
-                  text.textContent = "An enthusiast";
-              }, 500);
-              setTimeout(() => {
-                  text.textContent = "A researcher";
-              }, 3000);
-              setTimeout(() => {
-                  text.textContent = "A programmer";
-              }, 5500); //1s = 1000 milliseconds
-          }
+          const typeEffect = () => {
+              if (isWaiting) return;
   
-          textLoad();
-          setInterval(textLoad, 7500);
-      </script>  
+              const current = phrases[currentPhrase];
+              
+              if (!isDeleting) {
+                  // Typing
+                  textElement.textContent = current.substring(0, currentChar + 1);
+                  currentChar++;
+                  
+                  if (currentChar === current.length) {
+                      // Finished typing, wait before deleting
+                      isWaiting = true;
+                      setTimeout(() => {
+                          isWaiting = false;
+                          isDeleting = true;
+                          typeEffect();
+                      }, 2000); // Wait 2 seconds before starting to delete
+                      return;
+                  }
+                  
+                  setTimeout(typeEffect, 100); // Typing speed
+              } else {
+                  // Deleting
+                  currentChar--;
+                  textElement.textContent = current.substring(0, currentChar);
+                  
+                  if (currentChar === 0) {
+                      // Finished deleting, move to next phrase
+                      isDeleting = false;
+                      currentPhrase = (currentPhrase + 1) % phrases.length;
+                      
+                      // Short pause before typing next phrase
+                      setTimeout(typeEffect, 500);
+                      return;
+                  }
+                  
+                  setTimeout(typeEffect, 50); // Deleting speed (faster)
+              }
+          };
+  
+          // Start the effect
+          typeEffect();
+      </script>        
+        
       <script src="./assets/js/main.js"></script>
   
     </body>
